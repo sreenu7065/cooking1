@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Div Example</title>
+  <style>
+
+body {
+      background-image: url('C:\Users\sreen\OneDrive\Pictures\Penguin.jpg'); /* Replace 'path/to/your/image.jpg' with your image file path */
+      background-size: cover; /* Adjusts the background image size */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+    }
+    .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); /* Three columns each 100px wide */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.item1 {
+  background: linear-gradient(45deg, #ff6347, #ffd700);
+}
+
+.item2 {
+    background: linear-gradient(45deg, #4682b4, #00ff00);
+}
+
+.item3 {
+    background: linear-gradient(45deg, #ff69b4, #1e90ff);
+}
+
+.item4 {
+    background: linear-gradient(45deg, #ffa500, #8a2be2);
+}
+
+.item5 {
+    background: linear-gradient(45deg, #90cdee, #ff1493);
+}
+.item6 {
+    background: linear-gradient(45deg, #2eb62e, #ff1414);
+}
+  </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="grid-item item1">slot1</div>
+        <div class="grid-item item2">slot2</div>
+        <div class="grid-item item3">slot3</div>
+        <div class="grid-item item4">slot4</div>
+        <div class="grid-item item5">slot5</div>
+        <div class="grid-item item6">slot6</div>
+      </div>
+
+</body>
+</html>
